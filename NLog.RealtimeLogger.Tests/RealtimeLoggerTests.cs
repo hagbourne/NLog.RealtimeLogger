@@ -117,7 +117,7 @@ namespace NLog.RealtimeLogger.Tests
                 RealtimeLogger.AppendLog("test", "test", "test", "test", "test");
             }
 
-            Assert.Equal(5, RealtimeLogger.LogHistory.Count);
+            Assert.Equal(4, RealtimeLogger.LogHistory.Count);
         }
 
         /// <summary>
